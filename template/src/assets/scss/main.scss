@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import "blip-ds/dist/collection/styles/_colors.scss";
+@import "blip-ds/dist/collection/styles/_fonts.scss";
+@import "blip-ds/dist/collection/styles/_media.scss";
+@import "blip-ds/dist/collection/styles/_mixins.scss";
+@import "blip-ds/dist/collection/styles/_resets.scss";
+@import "blip-ds/dist/collection/styles/_zindex.scss";
+@import "variables";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        margin: 0;
+        font-family: $font-family;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: $color-neutral-light-whisper;
+    }
+}
+
+:root {
+    @each $color, $value in $blip-theme {
+        --#{$color}: #{$value};
+    }
+}
+
+.dark-theme {
+    --color-primary-main: #09090A;
+}

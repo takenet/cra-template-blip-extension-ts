@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render the large Logo 1`] = `
+<img
+  alt="BLiP"
+  class="App-logo h-48"
+  src="[object Object]"
+/>
+`;
+
+exports[`<Logo /> should render the medium Logo as default 1`] = `
+<img
+  alt="BLiP"
+  class="App-logo h-40"
+  src="[object Object]"
+/>
+`;
+
+exports[`<Logo /> should render the small Logo 1`] = `
+<img
+  alt="BLiP"
+  class="App-logo h-32"
+  src="[object Object]"
+/>
+`;

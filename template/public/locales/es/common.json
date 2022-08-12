@@ -1,0 +1,14 @@
+{
+    "title": {
+        "homePage": "Plantilla de complementos"
+    },
+    "paragraph": {
+        "homeDescription": {
+            "part1": "Esta es una plantilla de complemento básica",
+            "part2": "Edite <1>src/pages/Home.js</1> y guarde para recargar."
+        }
+    },
+    "button": {
+        "repository": "Visite el Repositorio"
+    }
+}

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Template /> should render the Template 1`] = `
+<div
+  class="relative"
+>
+  <header
+    class="px-4 mx-auto sm:px-4 lg:mx-11"
+  >
+    <div
+      class="flex justify-between items-center pt-6 pb-4 border-b border-neutral-medium-wave md:justify-start md:space-x-3"
+    >
+      <div
+        class="flex justify-start items-center lg:flex-1 lg:w-0"
+      >
+        <h1
+          class="text-2xl font-semibold text-neutral-dark-city"
+        >
+          title.homePage
+        </h1>
+        <div
+          class="pt-2 ml-2 text-neutral-medium-cloud cursor-help"
+          data-testid="page-header-tooltip"
+        >
+          <bds-tooltip
+            position="right-center"
+            tooltip-text="BLiP extension it's a technology-agnostic way to plug unofficial features to enhance the portal capabilities."
+          >
+            <bds-icon
+              name="info"
+              theme="solid"
+            >
+              Hover me
+            </bds-icon>
+          </bds-tooltip>
+        </div>
+      </div>
+      <div
+        class="hidden justify-end items-center md:flex md:flex-1 lg:w-0"
+      >
+        <bds-button
+          icon="link"
+          variant="primary"
+        >
+          button.repository
+        </bds-button>
+      </div>
+    </div>
+  </header>
+</div>
+`;

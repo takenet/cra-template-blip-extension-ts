@@ -1,0 +1,14 @@
+{
+    "title": {
+        "homePage": "Plugins Template"
+    },
+    "paragraph": {
+        "homeDescription": {
+            "part1": "This is a basic plugin template.",
+            "part2": "Edit <1>src/pages/Home.js</1> and save to reload."
+        }
+    },
+    "button": {
+        "repository": "Visit the Repository"
+    }
+}

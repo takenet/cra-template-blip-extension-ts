@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ErrorPage />> should render the Error Page 1`] = `
+<div
+  class="flex flex-col justify-center items-center my-24 w-full"
+>
+  <h1
+    class="p-0 m-0 text-9xl text-transparent bg-clip-text bg-gradient-to-r from-primary-purples-acai to-primary-main"
+  >
+    404
+  </h1>
+  <h2
+    class="mt-1 text-xl font-normal text-transparent bg-clip-text bg-gradient-to-r from-primary-purples-acai to-primary-main"
+  >
+    Page not found
+  </h2>
+</div>
+`;
