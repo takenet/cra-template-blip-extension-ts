@@ -6,7 +6,7 @@ function Home() {
     const { t } = useTranslation();
 
     return (
-        <div className="flex flex-col justify-center items-center py-24 h-full text-neutral-dark-city">
+        <div className="flex h-full flex-col items-center justify-center py-24 text-neutral-dark-city">
             <Logo size="small" />
             <div className="mt-4">
                 <p className="text-center">
