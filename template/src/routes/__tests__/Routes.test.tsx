@@ -3,7 +3,10 @@ import userEvent from '@testing-library/user-event';
 
 import Routes from '..';
 
-const renderWithRouter = (ui: any, { route = '/' } = {}) => {
+const renderWithRouter = (
+    ui: Parameters<typeof render>[0],
+    { route = '/' } = {}
+) => {
     window.history.pushState({}, 'Test page', route);
 
     return {
